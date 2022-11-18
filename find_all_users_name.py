@@ -20,11 +20,9 @@ def find_all_users_name(data: dict)->list:
             if name not in names:
                 names.append(name)
             
-    return len(names)
-    users_name = ['Jalilov', 'Oybek', 'K Sharof', 'Murodjon TATU', 'Рахимов Мухаммад Бобур', 'K Diyor', 'Hamid aka', 'Codeschooluz', '(; Sulaymon ;)', 'Odilxon', '✪ Black Coder ✪', 'Rasulov Diyorbek', 'Shohjahon Berdimurotov', 'Malik Domla', 'Shahzod', 'Ochilov Elbek', 'ᴏᴛᴀʏᴏʀ ʏᴜsᴜᴘᴏᴠ', 'Jamshid', 'O`razg`ali', 'K Ikrom', 'Feruz Bekkiyev', '👨\u200d🎓 Ｓ@რץβογ 👨\u200d💻', 'ابراهيم', 'Muhammad Ali 🇺🇿', 'Mukhriddin', 'Husan', 'SARVARBEK JAKBAROV DI-11-21', 'Olimoff', 'Python 2022A : CHAT', 'Zarif Aka Ustoz', 'Diyorbek', 'K Otabek', 'رَوْشاَن', '꧁❀ιѕяσιℓ❀꧂', 'Bilol', 'Python 2022 A', 'Doniyor Baltashov', 'Jasurbek K Husan', 'Elmurod Shoyimov', 'Ziyodulloh Abduvali', 'Mahliyoxon Anvarova']
-    return len(users_name)
+    return names
 
 
 
 data = read_data('data/result.json')
-print(find_all_users_name(data))
+
